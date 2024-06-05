@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  
+}
+
+main{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZOz1hhFynrIP5ohTiEBL8EXrU_J5fWWESaw&s");
+  background-size:cover;
+  background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+footer span{
+  color: #FFB000;
+}
+.container {
+  background-color: rgb(66, 66, 66);
+  padding: 6px;
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 #000;
+}
+
+.imagem-fundo {
+    z-index: -100;
+}
+
+form {
+  position: absolute;
+  margin-top: 80px;
+  transition: .5s;
+  width: 300px;
+  height: 400px;
+}
+
+.botao-form button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 29px;
+  margin-top: 20px;
+  border-color: #FFB000;
+  color: #fff;
+  background-color: #FFB000;
+  background-image: -webkit-linear-gradient(45deg, #fff 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #fff 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  color: #000;
+  border-radius: 30px;
+}
+
+.botao-form button:hover {
+    background-position: 0;
+}
+
+.botao-cadastrar {
+  margin-left: 25px;
+}
+
+input[type="text"] {
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 60px;
+  padding: 8px 0 8px 35px;
+  outline: none;
+  width: 100%;
+}
+
+input[type="senha"] {
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 60px;
+  padding: 8px 0 8px 35px;
+  outline: none;
+  width: 100%;
+}
+
+button[type="acessar"] {
+  border-radius: 30px;
+  width: 100%;
+  border: none;
+  padding: 8px 0 8px 15px;
+  font-size: 15px;
+  margin-top: 40px;
+  cursor: pointer;
+  border-color: #FFB000;
+  color: #fff;
+  background-color: #FFB000;
+  background-image: -webkit-linear-gradient(45deg, #fff 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #fff 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  color: #000;
+}
+
+button:hover[type="acessar"] {
+    background-position: 0;
+}
+
+.divCheck {
+  margin:5px 0 0 5px;
+  width: 80%;
+  font-size: 13px;
+}
+
+i {
+  position: absolute;
+  left: 0;
+  padding: 10px 10px;
+}
+
+.iEmail {
+  top: 95px;
+}
+
+.iSenha {
+  top: 175px;
+}
+
+.email {
+    margin-top: 10px
+}
+
+.escrita {
+  font-size:small;
+  margin-bottom: 10px;
+}
