@@ -19,11 +19,22 @@ main{
 footer span{
   color: #FFB000;
 }
+
+.pricipal button{
+  text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: #f44236;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.9;
+    flex: 1;
+}
 .container {
   background-color: rgb(66, 66, 66);
   padding: 6px;
-  width: 350px;
-  height: 450px;
+  width: 450px;
+  height: 550px;
   display: flex;
   flex-direction: column;
   align-items: center;

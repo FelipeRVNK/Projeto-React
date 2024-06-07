@@ -5,6 +5,8 @@ import Home from "./Pages/Home";
 import Entrar from "./Pages/Entrar";
 import Imc from "./Pages/Imc";
 import Nutricionistas from "./Pages/Nutricionistas";
+import Personal from "./Pages/Personal";
+import Usuarios from "./Pages/Usuarios";
 
 function App(){
     return(
@@ -14,6 +16,8 @@ function App(){
                 <Route path="/entrar" element={<Layout><Entrar/></Layout>} />
                 <Route path="/imc" element={<Layout><Imc/></Layout>} />
                 <Route path="/nutricionistas" element={<Layout><Nutricionistas/></Layout>} />
+                <Route path="/personais" element={<Layout><Personal/></Layout>} />
+                <Route path="/usuarios" element={<Layout><Usuarios/></Layout>} />
             </Routes>
         </>
     )
