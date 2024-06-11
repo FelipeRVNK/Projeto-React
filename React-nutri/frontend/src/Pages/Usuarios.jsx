@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 
 
 function UsuariosCadastrados(){
@@ -7,7 +7,7 @@ function UsuariosCadastrados(){
     const [usuarios, setUsuario] = useState([]);
 
     function getUsuario() {
-        axios.get("http://localhost:****/Usuarios")
+        axios.get("http://localhost:5248/Usuarios")
             .then((resposta) => {
                 setUsuario(resposta.data);
             });

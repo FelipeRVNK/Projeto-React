@@ -7,7 +7,7 @@ function NutricionistasCadastrados(){
     const [nutris, setNutri] = useState([]);
 
     function getNutri() {
-        axios.get("http://localhost:****/Nutricionistas")
+        axios.get("http://localhost:5248/Nutricionistas")
             .then((resposta) => {
                 setNutri(resposta.data);
             });

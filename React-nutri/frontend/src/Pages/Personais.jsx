@@ -7,7 +7,7 @@ function PersonaisCadastrados(){
     const [personais, setPersonal] = useState([]);
 
     function getPersonal() {
-        axios.get("http://localhost:****/Personais")
+        axios.get("http://localhost:5248/Personais")
             .then((resposta) => {
                 setPersonal(resposta.data);
             });

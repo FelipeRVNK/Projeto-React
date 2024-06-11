@@ -5,7 +5,7 @@ import Home from "./Pages/Home";
 import Entrar from "./Pages/Entrar";
 import Imc from "./Pages/Imc";
 import Nutricionistas from "./Pages/Nutricionistas";
-import Personal from "./Pages/Personal";
+import Personais from "./Pages/Personais";
 import Usuarios from "./Pages/Usuarios";
 
 function App(){
@@ -16,7 +16,7 @@ function App(){
                 <Route path="/entrar" element={<Layout><Entrar/></Layout>} />
                 <Route path="/imc" element={<Layout><Imc/></Layout>} />
                 <Route path="/nutricionistas" element={<Layout><Nutricionistas/></Layout>} />
-                <Route path="/personais" element={<Layout><Personal/></Layout>} />
+                <Route path="/personais" element={<Layout><Personais/></Layout>} />
                 <Route path="/usuarios" element={<Layout><Usuarios/></Layout>} />
             </Routes>
         </>
