@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 
 * {
   margin: 0;
@@ -155,6 +155,70 @@ i {
   margin-bottom: 10px;
 }
 
+
+
+table,
+tbody,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+table > tbody > tr > th,
+table > tbody > tr > td {
+  padding: 3px !important;
+}
+
+table > tbody > tr > th:nth-child(1),
+table > tbody > tr > td:nth-child(1) {
+  text-align: center;
+}
+
+table > tbody > tr > th:nth-child(3),
+table > tbody > tr > td:nth-child(3) {
+  text-align: center;
+  width: 230px;
+}
+
+table > tbody > tr > td > button {
+  width: 100px;
+  display: inline-block;
+  padding: 3px;
+  margin-right: 5px;
+} */
+
+/* TABELA */
+
+form > * {
+  display: block;
+  width: 70%;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+form > input,
+form > button {
+  padding: 5px;
+}
+
+label,
+fieldset {
+  margin-top: 10px;
+}
+
+form > button {
+  width: 100px;
+  margin: 20px 10px 20px 0;
+  display: inline-block;
+}
+
+main > div > button {
+  width: 100px;
+  margin: 10px 0 20px 0;
+  display: inline-block;
+  padding: 3px;
+}
 
 /* TABELA */
 table,
